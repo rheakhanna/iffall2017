@@ -1,0 +1,14 @@
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+body {
+	color: grey; font-family: Helvetica;
+}
+
+p span.speaker {
+	color: orange;
+}
