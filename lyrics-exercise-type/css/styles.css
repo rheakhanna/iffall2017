@@ -1,0 +1,34 @@
+html {
+	background-color: Black; 
+}
+
+body {
+	text-align: center; color: white; font-family: 'Rubik', sans-serif; font-weight: 300;
+}
+
+span.name {
+	color: white; font-size: 50px;
+	letter-spacing: 0.1em;
+}
+
+span.artist {
+	color: grey; font-size: 30px;
+}
+
+span.chorus {
+	font-weight: 300; color: grey;
+
+}
+
+span.upper {
+	text-transform: uppercase; letter-spacing: 0.1em;
+}
+
+span.bold {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+p {
+	margin-bottom: 20px
+}
