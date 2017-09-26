@@ -1,0 +1,36 @@
+html {
+	background-image: url(https://ae01.alicdn.com/kf/HTB1MNwRKXXXXXb2aXXXq6xXFXXXP/HUAYI-Vintage-font-b-White-b-font-Wood-font-b-Background-b-font-Art-font-b.jpg)
+}
+
+body {
+	text-align: center; color: black; font-family: 'Rubik', sans-serif; font-weight: 300;
+}
+
+
+span.name {
+	color: black; font-size: 50px;
+	letter-spacing: 0.1em;
+}
+
+span.artist {
+	color: grey; font-size: 30px;
+}
+
+span.chorus {
+	font-weight: 300; color: black;
+
+}
+
+span.upper {
+	text-transform: uppercase; letter-spacing: 0.1em;
+}
+
+span.bold {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+p {
+	margin-bottom: 20px
+	font-weight: lighter;
+}
