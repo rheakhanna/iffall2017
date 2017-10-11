@@ -1,0 +1,37 @@
+.section_one aside{
+	float: right;
+
+}
+
+.section_two{
+	position: relative;
+}
+.section_two aside{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.section_three aside{
+	background-color: green;
+	position:fixed;
+	top: 0;
+	right: 0;
+	z-index: 10;
+
+}
+
+#calloutred{
+	background-color: red;
+	position: absolute;
+	margin-left: 300px;
+	z-index: 1;
+	margin-top: -100px;
+}
+
+#calloutblack {
+	background-color: black;
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 310px;
+}
