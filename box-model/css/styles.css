@@ -27,19 +27,84 @@ h2 {
 h3 {
 	font-size: 40px;
 	text-align: center;
-	padding-top: 41px;
+	padding-top: 42px;
+	color: teal;
 }
 
-p {
-	margin-left: 160px;
-}
 
 section#top_section {
 	background-image: url("https://wallpaperscraft.com/image/sea_water_waves_ripples_depth_93831_2560x1440.jpg");
 	background-position: center;
 	height: 480px;
 }
-
 section#second_section {
-	
+	background-color: white;
+	height: 646px;
 }
+
+.hotelimg {
+	float: right;
+	margin: 14px 160px 20px 20px;
+	height:300px;
+	width: 400px;
+	padding-left: 20px;
+}
+
+.maincontent {
+	width:960px;
+	padding-top: 13px;
+	display:block;
+	margin:auto;
+	color: grey;
+}
+
+.maincontent p{
+	margin-top: 0px;
+	margin-bottom: 16px;
+	line-height: 1.2;
+	font-size: 18px;
+}
+
+section#third_section {
+	background-color: white;
+	height: 679px;
+	padding-top: 0px;
+	font-size: 27px;
+	margin:0;
+	clear: right;
+	text-align: center;
+}
+#third_section p{
+	font-size: 18px;
+	margin-top: 6px;
+	padding-right: 23px;
+}
+
+section#third_section h4 {
+	margin-top: 2px;
+	text-align: left;
+	display: inline-block;
+	font-size: 21px;
+}
+
+.photosettings{
+	float: left;
+	margin-right: 13px;
+	margin-top: -2px;
+}
+
+.column{
+	float: left;
+	width: 50%;
+	text-align: left;	
+}
+
+
+
+
+
+
+
+
+
+
