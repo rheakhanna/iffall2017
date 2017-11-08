@@ -1,0 +1,89 @@
+body{
+	width: 100%;
+	height:100%;
+	margin: auto;
+	background-image: url("../HEDI.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: center;
+	scroll-behavior: a
+	
+}
+
+a {
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+
+#quote {
+	position: absolute;
+	width: 430px;
+	height: 100px;
+	top: 155px;
+	left: 770px;
+	font-family: Helvetica;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 500;
+	color: white;
+
+}
+
+#hs {
+	position: absolute;
+	width: 400px;
+	height: 100px;
+	top: 240px;
+	left: 770px;
+	font-family: Helvetica;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.96em;
+	font-weight: 700;
+	color: white;
+}
+
+@media screen and (max-width: 980px){
+	div#quote {
+		top: 450px;
+		left: 60px;
+		font-size: 0.79em;
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 980px){
+	div#hs {
+		top: 540px;
+		left: 60px;
+		font-size: 0.84em;
+		width: 330px;
+	}
+}
+
+@media screen and (max-width: 669px){
+		div#quote {
+		width: 220px;
+		font-size: 0.6em;
+		top: 530px;
+		left: 50px;
+	}
+}
+
+@media screen and (max-width: 669px){
+		div#hs {
+		top: 600px;
+		width: 220px;
+		font-size: 0.7em;
+		left: 50px;
+	}
+}
+
+
+
