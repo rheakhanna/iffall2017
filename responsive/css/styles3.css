@@ -1,0 +1,82 @@
+body{
+	width: 100%;
+	height:100%;
+	margin: auto;
+	background-image: url("../hedisphotography.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: center;
+	
+}
+
+a {
+	display:block;
+	position:absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+
+
+#quote {
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	top: 510px;
+	left:710px;
+	font-family: Helvetica;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.85em;
+	font-weight: 300;
+	color: white;
+
+}
+
+#hs {
+	position: absolute;
+	width: 500px;
+	height: 100px;
+	top: 590px;
+	left:710px;
+	font-family: Helvetica;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	font-weight: 700;
+	color: white;
+}
+
+@media screen and (max-width: 994px){
+	div#quote {
+		left: 50px;
+		font-size: 0.79em;
+	}
+}
+
+@media screen and (max-width: 994px){
+	div#hs {
+		top: 590px;
+		left: 50px;
+		font-size: 0.84em;
+	}
+}
+
+@media screen and (max-width: 669px){
+		div#quote {
+		width: 300px;
+		font-size: 0.5em;
+	}
+}
+
+@media screen and (max-width: 669px){
+		div#hs {
+		top: 575px;
+		width: 300px;
+		font-size: 0.6em;
+	}
+}
+
+
+
