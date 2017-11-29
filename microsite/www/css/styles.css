@@ -5,3 +5,53 @@ body {
 	background-attachment: fixed;
 	background-position: top;
 } 
+
+h1 {
+	font-family: 'Nixie One', cursive;
+	font-size: 100px;
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	top:240px;
+	left:405px;
+	text-align: center;
+}
+
+.navigation {
+	font-family: 'Nixie One', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	width: 800px;
+	height: 50px;
+	margin-left: 240px;
+	margin-top: 150px;
+
+}
+
+p {
+	padding-top: 11px;
+}
+
+.intro {
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	background-position: fixed;
+	width: 800px;
+	height: 300px;
+	margin-left: 240px;
+	margin-top: 30px;
+}
+
+
+
+.arrow {
+	height:15px;
+	width:25px;
+	margin-top: 255px;
+	margin-left: 390px;
+}
+
+	
