@@ -35,20 +35,19 @@ h1 {
 	top:190px;
 	left:550px;
 	text-align: center;
-	letter-spacing: 3.5px;
 }
 .box {
 	background-color: rgba(0,0,0,0.7);
 	box-sizing: border-box;
 	background-position: fixed;
 	width: 800px;
-	height: 1780px;
+	height: 1700px;
 	margin-left: 245px;
 	margin-top: 30px;
 }
 
 .pic1 {
-	margin-top: 150px;
+	margin-top: 180px;
 	margin-left: 210px;
 	padding-bottom: 40px;
 }
