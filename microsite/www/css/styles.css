@@ -68,11 +68,13 @@ p {
 
 }
 
-.dropdown-content {
+.dropdowncontent {
 	display: none;
 	position: absolute;
 	font-size:13px;
 	color: white;
+	margin-left: 200px;
+
 }
 
 .dropdown:hover .dropdowncontent {
