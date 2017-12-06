@@ -1,0 +1,84 @@
+body {
+	background:url("../background.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+} 
+
+h1 {
+	font-family: 'Nixie One', cursive;
+	font-size: 100px;
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	top:240px;
+	left:390px;
+	text-align: center;
+	letter-spacing: 6px;
+}
+
+.navigation {
+	font-family: 'Nixie One', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	width: 800px;
+	height: 50px;
+	margin-left: 240px;
+	margin-top: 150px;
+	text-align: center;
+}
+
+p {
+	padding-top: 11px;
+	margin-left: 45px;
+}
+
+.intro {
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	background-position: fixed;
+	width: 800px;
+	height: 300px;
+	margin-left: 240px;
+	margin-top: 30px;
+}
+
+
+.dropbtn {
+	background: url("../arrow.svg.png");
+	background-size:100%;
+	background-repeat: no-repeat;
+	height: 15px;
+	width:25px;
+	margin-top: 250px;
+	margin-left: 400px;
+	border:none;
+	z-index: 1;
+}
+
+.dropdown {
+	position:fixed;
+	display: block;
+	font-family: 'Nixie One', cursive;
+	color: white;
+
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	font-size:13px;
+	color: white;
+}
+
+.dropdown:hover .dropdowncontent {
+    display: block;
+}
+
+
+
+	

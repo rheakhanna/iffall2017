@@ -1,0 +1,91 @@
+body {
+	background:url("../background.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+} 
+
+.navigation {
+	font-family: 'Nixie One', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	width: 800px;
+	height: 50px;
+	margin-left: 245px;
+	margin-top: 100px;
+	padding-bottom: 0px;
+	position: top;
+}
+
+p {
+	padding-top: 10px;
+	color: white;
+}
+
+h1 {
+	font-family: 'Nixie One', cursive;
+	font-size: 50px;
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	top:190px;
+	left:550px;
+	text-align: center;
+	letter-spacing: 3.5px;
+}
+.box {
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	background-position: fixed;
+	width: 800px;
+	height: 1780px;
+	margin-left: 245px;
+	margin-top: 30px;
+}
+
+.pic1 {
+	margin-top: 150px;
+	margin-left: 210px;
+	padding-bottom: 40px;
+}
+
+p.body {
+	font-family: 'Helvetica'; sans-serif; 
+	padding-left: 50px;	
+	color: white;
+	padding-right: 50px;
+	font-size: 13px;
+	line-height: 20px;
+	margin-left:100px;
+	padding-right: 130px;
+	letter-spacing: 0.5px;
+}
+
+.pic2 {
+	margin-top: 40px;
+	margin-left: 70px;
+}
+
+.pic3 {
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+.pic4 {
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+p.home {
+	margin-top: 70px;
+	margin-left: 370px;
+	font-family: 'Nixie One', cursive;
+	font-size: 15px;
+}
+
+
+

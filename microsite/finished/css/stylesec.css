@@ -1,0 +1,110 @@
+body {
+	background:url("../background.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+} 
+
+.navigation {
+	font-family: 'Nixie One', cursive;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	width: 800px;
+	height: 50px;
+	margin-left: 240px;
+	margin-top: 150px;
+	text-align: center;
+
+}
+
+h1 {
+	font-family: 'Nixie One', cursive;
+	font-size: 50px;
+	color: white;
+	text-transform: uppercase;
+	position: absolute;
+	top:215px;
+	left:435px;
+	text-align: center;
+	letter-spacing: 3.5px;
+	line-height: 1.2em;
+}
+
+.box {
+	background-color: rgba(0,0,0,0.7);
+	box-sizing: border-box;
+	background-position: fixed;
+	width: 800px;
+	height: 1590px;
+	margin-left: 240px;
+	margin-top: 30px;
+}
+
+p {
+	padding-top: 10px;
+	color: white;
+	margin-left: 100px;
+	margin-right: 150px; 
+}
+
+p.one {
+	font-family: 'Helvetica'; sans-serif;
+	color:white;
+	padding-top: 250px;
+	padding-left: 40px;
+	font-size: 13px;
+	z-index: 1;
+	padding-bottom: 10px;
+	line-height: 17px;
+	letter-spacing: 0.5px;
+
+}
+
+ul {
+	padding-top: 10px;
+}
+
+li {
+	font-family: 'Helvetica'; sans-serif;
+	color:white;
+	line-height: 21px;
+	margin-left:100px;
+	padding-right: 50px;
+	font-size: 13px;
+	background-color: none;
+	padding-top: 0px;
+	letter-spacing: 0.5px;
+	list-style: none;
+	margin-right: 70px;
+
+
+}
+
+p.two {
+	font-family: 'Helvetica'; sans-serif;
+	padding-left: 40px;	
+	font-size: 13px;
+	padding-top:0px;
+	padding-bottom: 10px;
+	line-height: 17px;
+	letter-spacing: 0.5px;
+}
+
+.quote {
+	color: rgb(169,169,169);
+	line-height: 18px;
+
+	letter-spacing: 0.5px;
+}
+
+p.home {
+	margin-top: 50px;
+	margin-left: 370px;
+	font-family: 'Nixie One', cursive;
+	font-size: 15px;
+}
+
