@@ -1,5 +1,4 @@
-body{
-	width: 100%;
+body, html {
 	height:100%;
 	margin: auto;
 	background-image: url("../HEDI.png");
@@ -51,8 +50,8 @@ a {
 
 @media screen and (max-width: 980px){
 	div#quote {
-		top: 450px;
-		left: 60px;
+		top: 500px;
+		left: 280px;
 		font-size: 0.79em;
 		width: 330px;
 	}
@@ -60,8 +59,8 @@ a {
 
 @media screen and (max-width: 980px){
 	div#hs {
-		top: 540px;
-		left: 60px;
+		top: 590px;
+		left: 280px;
 		font-size: 0.84em;
 		width: 330px;
 	}
@@ -71,17 +70,19 @@ a {
 		div#quote {
 		width: 220px;
 		font-size: 0.6em;
-		top: 530px;
-		left: 50px;
+		top: 500px;
+		left: 10px;
+		color: black;
 	}
 }
 
 @media screen and (max-width: 669px){
 		div#hs {
-		top: 600px;
+		top: 560px;
 		width: 220px;
 		font-size: 0.7em;
-		left: 50px;
+		left: 10px;
+		color: black;
 	}
 }
 

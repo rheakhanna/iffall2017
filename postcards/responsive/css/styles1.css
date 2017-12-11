@@ -1,12 +1,11 @@
-body{
+body, html{
 	width: 100%;
 	height:100%;
 	margin: auto;
 	background-image: url("../hedimodel.png");
 	background-size: cover;
 	background-repeat: no-repeat;
-	position: absolute;
-	scroll-behavior: a
+	background-position: absolute;
 	
 }
 
@@ -49,17 +48,17 @@ a {
 
 @media screen and (max-width: 994px){
 	div#quote {
-		top: 450px;
+		top: 550px;
 		left: 30px;
-		font-size: 0.79em;
+		font-size: 0.50em;
 	}
 }
 
 @media screen and (max-width: 994px){
 	div#hs {
-		top: 562px;
-		left: 30px;
-		font-size: 0.84em;
+		top: 620px;
+		left: 23px;
+		font-size: 0.60em;
 	}
 }
 
@@ -72,7 +71,7 @@ a {
 
 @media screen and (max-width: 669px){
 		div#hs {
-		top: 525px;
+		top: 620px;
 		width: 300px;
 		font-size: 0.6em;
 	}
