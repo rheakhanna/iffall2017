@@ -1,0 +1,34 @@
+body {
+	padding-left: 30px;
+	font-family: 'Helvetica', sans-serif;
+}
+p {
+	font-weight: lighter;
+	margin-bottom: 20px;
+	width: 500px;
+
+}
+.reflection {
+	width: 500px
+	margin-bottom: 30px;
+}
+
+
+.image {
+	width: 500px; 
+	padding-bottom: 10px;
+	padding-top: 30px;
+
+}
+
+.image2 {
+	width: 500px;
+	padding-bottom: 0px;
+	padding-top: 30px;
+}
+
+.image3 {
+	padding-bottom: 0px;
+	padding-top: 30px;
+	height: 500px;
+}
